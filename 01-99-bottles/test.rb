@@ -307,9 +307,15 @@ Take one down and pass it around, 2 bottles of beer on the wall.
 Take one down and pass it around, 1 bottle of beer on the wall.
 
 1 bottle of beer on the wall, 1 bottle of beer.
+<<<<<<< HEAD
 Take it down and pass it around, No more bottles of beer on the wall.
 
 No more bottles of beer on the wall, No more bottles of beer.
+=======
+Take it down and pass it around, no more bottles of beer on the wall.
+
+No more bottles of beer on the wall, no more bottles of beer.
+>>>>>>> 54e4203a453e16cd0ff9f12e32d8a3d420dfbf8b
 Go to the store and buy some more, 99 bottles of beer on the wall.
   SONG
 end
