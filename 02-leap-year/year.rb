@@ -1,5 +1,5 @@
 class Year
-<<<<<<< HEAD
+
   def initialize(input)
     @value = input
   end
@@ -8,13 +8,12 @@ class Year
     divisible_by_4 = (@value % 4 == 0)
     divisible_by_100 = (@value % 100 == 0)
     divisible_by_400 = (@value % 400 == 0)
-
     divisible_by_4 && (!divisible_by_100 || divisible_by_400)
-  end
+    end
 end
-=======
 
   attr_reader :year
+
   def initialize(number)
     @year = number.to_i
   end
@@ -39,4 +38,3 @@ end
 
 end
 
->>>>>>> 6b2b35822ee863c6c661ff54b2542a110de42aff

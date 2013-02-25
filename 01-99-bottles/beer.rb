@@ -6,10 +6,12 @@
 # Take one down pass it around, #{current_beer-1} bottles of beer on the wall." 
 class Beer
 
+# Asterisk means that there doesnt have to be a value passed in
 def initialize(*beer)
   @beer = beer
 end
 
+# class method
 def self.beer_loop
   beer = 99
   loop do
@@ -25,4 +27,9 @@ end
 
 end
 
-Beer.beer_loop
+# When we instantiate a new object from the beer class it automatically
+# gets set up with the initialize merthod
+# In this case there is effectively a writer method for the beer variable
+
+beer = Beer.beer_loop
+puts beer
