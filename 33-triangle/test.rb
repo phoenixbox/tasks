@@ -8,7 +8,6 @@ class TriangeTest < MiniTest::Unit::TestCase
   end
 
   def test_larger_equilateral_triangles_also_have_equal_sides
-    skip
     assert_equal :equilateral, Triangle.new(10, 10, 10).kind
   end
 

@@ -5,6 +5,7 @@ require_relative './etl'
 class TransformTest < MiniTest::Unit::TestCase
 
   def test_transform_one_value
+
     old = { 'hello' => ['WORLD'] }
     expected = { 'world' => 'hello' }
 
@@ -12,7 +13,6 @@ class TransformTest < MiniTest::Unit::TestCase
   end
 
   def test_transform_more_values
-    skip
     old = { 'hello' => ['WORLD', 'GSCHOOLERS'] }
     expected = { 'world' => 'hello', 'gschoolers' => 'hello' }
 
